@@ -2,8 +2,7 @@
     .group-name {
         clear: both;
         display: block;
-        font-weight: bold;
-        font-size: 14px;
+        font-size: 20px;
         margin-top: .5em;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -11,6 +10,8 @@
     }
     .group-items {
         float: left;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -18,7 +19,7 @@
     .build-group .group-name {
         color: #fff;
         margin-bottom: -.3em;
-        padding-left: 3px;
+        padding-left: 10px;
     }
 }
 
